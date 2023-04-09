@@ -4,11 +4,11 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_lady(name, married):
+def print_lady(name, married, greeting):
     if married:
-        print(f'Hello, Mrs {name}.')  # Press Ctrl+F8 to toggle the breakpoint.
+        print(f'Hello, {greeting} Mrs {name}.')  # Press Ctrl+F8 to toggle the breakpoint.
     else:
-        print(f'Hi, Ms {name}.')
+        print(f'Hi, {greeting} Ms {name}.')
 
 
-print_lady('Sarah', False)
+print_lady('Sarah', False, 'lovely')
