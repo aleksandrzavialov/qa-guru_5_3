@@ -6,9 +6,9 @@
 
 def print_lady(name, married):
     if married:
-        print(f'Hello, Mrs {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+        print(f'Hello, Mrs {name}.')  # Press Ctrl+F8 to toggle the breakpoint.
     else:
-        print(f'Hi, Ms {name}')
+        print(f'Hi, Ms {name}.')
 
 
 print_lady('Sarah', False)
